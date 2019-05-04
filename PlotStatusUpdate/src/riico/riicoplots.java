@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.Select;
 public class riicoplots {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// web driver configuration
 		WebDriver driver=new FirefoxDriver();
 		driver.get("http://164.100.222.97/mapserver2015/fusion/riicoweb/dashboard.php?d=1282");
 		driver.findElement(By.id("username")).sendKeys("riico");
